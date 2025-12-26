@@ -1,5 +1,6 @@
 * {
-      box-sizing: border-box;
+      padding: 0;
+      margin:0;
 }
 
 .parent {
@@ -162,3 +163,4 @@
         padding-left: 30px;
     }
 }
+
