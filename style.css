@@ -1,6 +1,6 @@
 * {
-      padding: 0;
-      margin:0;
+    margin: 0;
+    padding: 0;
 }
 
 .parent {
@@ -13,7 +13,7 @@
 }
 
 .container-cl {
-    min-height: 100vh;
+    height: 300px;
     width: 100%;
     padding-left: 60px;
     display: flex;
@@ -97,28 +97,29 @@
     transform: rotate(360deg) scale(1);
     pointer-events: auto;
 }
-
 @media (max-width: 600px) {
 
     .parent {
         justify-content: center;
-        padding: 20px;
+        height: fit-content;
     }
 
     .container-cl {
         padding-left: 0;
         align-items: center;
         text-align: center;
-        height: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 
     .container-cl h1 {
         font-size: 36px;
+        height: 120px;
     }
 
     .display-cl {
-        flex-direction: column;
         gap: 15px;
+        height: 40px;
     }
 
     .display-cl input {
@@ -126,9 +127,8 @@
         max-width: 280px;
     }
 
-    .display-cl button,
-    .getpass-cl {
-        width: 160px;
+    .display-cl button{
+        width: 40px;
         height: 40px;
         font-size: 16px;
     }
@@ -163,4 +163,3 @@
         padding-left: 30px;
     }
 }
-
