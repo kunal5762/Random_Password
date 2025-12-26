@@ -23,6 +23,6 @@ The project is deployed on Netlify and integrated into my React portfolio.
 - *Password is copied using the navigator.clipboard API*
 
 # 🌐 Live Demo
- -> Live url :
- -> Portfolio URL : https://mydevport.netlify.app/
+ - *Live url :*
+- *Portfolio URL :* https://mydevport.netlify.app/
  
