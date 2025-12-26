@@ -104,6 +104,7 @@ background: linear-gradient(90deg, rgba(180, 121, 58, 1) 0%, rgba(253, 29, 29, 1
         height: 100vh;
         background: #22C1C3;
 background: linear-gradient(0deg, rgba(34, 193, 195, 1) 7%, rgba(253, 187, 45, 1) 96%);
+width: 100%;
     }
 
     .container-cl {
@@ -112,24 +113,23 @@ background: linear-gradient(0deg, rgba(34, 193, 195, 1) 7%, rgba(253, 187, 45, 1
         text-align: center;
         padding-bottom: 20px;
         padding-top: 20px;
-        width: 100%;
+        width: 300px;
     }
 
     .container-cl h1 {
         font-size: 36px;
         height: 150px;
-        width: 100%;
+        width: 300px;
     }
 
     .display-cl {
         gap: 15px;
         height: 50px;
-        /* width: 100%; */
+        width: 300px;
     }
 
     .display-cl input {
-        width: 60%;
-        max-width: 280px;
+        max-width: 220px;
     }
 
     .display-cl button{
@@ -172,4 +172,3 @@ background: linear-gradient(0deg, rgba(34, 193, 195, 1) 7%, rgba(253, 187, 45, 1
         padding-left: 30px;
     }
 }
-
