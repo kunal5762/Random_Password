@@ -124,7 +124,7 @@ background: linear-gradient(0deg, rgba(34, 193, 195, 1) 7%, rgba(253, 187, 45, 1
     .display-cl {
         gap: 15px;
         height: 50px;
-        width: 80%;
+        /* width: 100%; */
     }
 
     .display-cl input {
@@ -172,3 +172,4 @@ background: linear-gradient(0deg, rgba(34, 193, 195, 1) 7%, rgba(253, 187, 45, 1
         padding-left: 30px;
     }
 }
+
